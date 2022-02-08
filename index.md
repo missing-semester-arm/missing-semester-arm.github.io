@@ -62,7 +62,7 @@ title: Ծրագրավորման կրթությունից բացակայող կի
 - [Turkish](https://missing-semester-tr.github.io/)
 - [Vietnamese](https://missing-semester-vn.github.io/)
 
-Նշում: Այս թարգմանությունները կատարվել են օգտվողների կողմից և սրբագրված չեն:
+Նշում. Այս թարգմանությունները կատարվել են օգտվողների կողմից և սրբագրված չեն:
 
 ## Երախտագիտություն
 
@@ -74,7 +74,7 @@ AeroAstro](https://aeroastro.mit.edu/) կայքին աուդիո և վիդեո �
 ---
 
 <div class="small center">
-<p><a href="https://github.com/missing-semester/missing-semester">Source code</a>.</p>
+<p><a href="https://github.com/missing-semester-arm/missing-semester-arm.github.io">Աղբյուր</a>:</p>
 <p>Լիցենզիա CC BY-NC-SA:</p>
 <p><a href="/license/">Լիցենզիայի և մասնակցության մանրամասներ:</a></p>
 </div>
