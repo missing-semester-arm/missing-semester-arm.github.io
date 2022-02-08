@@ -31,25 +31,23 @@ title: "Ինչու՞ ենք մենք դասավանդում այս դասը"
 # Ձեր Համակարգչային գիտության կրթությունից բացակայող կիսամյակը
 
 Դա շտկելու համար մենք վարում ենք դաս, որն ընդգրկում է բոլոր այն թեմաները, 
-որոնք մենք կարևոր ենք համարում արդյունավետ համակարգչային գիտնական և ծրագրավորող 
-լինելու համար: Դասը պրագմատիկ և գործնական է, և այն գործնականում ներկայացնում է 
+որոնք մենք կարևոր ենք համարում արդյունավետ ծրագրավորող լինելու համար: 
+Դասը պրագմատիկ և գործնական է, և այն գործնականում ներկայացնում է 
 գործիքներ և տեխնիկա, որոնք դուք կարող եք անմիջապես կիրառել ամենատարբեր 
-իրավիճակներում։ Դասընթացն անցկացվում է MIT-ի «Անկախ գործունեության ժամանակաշրջանի» 
-ընթացքում՝ 2020 թվականի հունվարին՝ մեկամսյա կիսամյակ, որը ներառում է ավելի կարճ 
-դասեր, որոնք դասավանդվում են ուսանողների կողմից: Թեև դասախոսություններն իրենք 
+իրավիճակներում։ Դասընթացն անցկացվում է MIT-ի «Անկախ գործունեության ժամանակաշրջան»-ի 
+ընթացքում, 2020 թվականի հունվարին՝ մեկամսյա կիսամյակ, որը ներառում է ավելի կարճ 
+դասեր, որոնք դասավանդվում են ուսանողների կողմից: Թեև դասախոսություններն  
 հասանելի են միայն MIT-ի ուսանողների համար, մենք հանրությանը կտրամադրենք 
-դասախոսության բոլոր նյութերը դասախոսությունների տեսագրությունների հետ միասին:
+դասախոսության բոլոր նյութերը, դասախոսությունների տեսագրությունների հետ միասին:
 
-Եթե թվում է, թե դա կարող է ձեզ համար լինել, ահա մի քանի կոնկրետ
-օրինակներ, թե ինչ կսովորեցնեն ձեզ.
+Ահա մի քանի կոնկրետ օրինակներ թե ինչ կսովորեցնեն ձեզ:
 
 ## Հրամանի պատյան (Command shell)
 
-Ինչպես ավտոմատացնել սովորական և կրկնվող առաջադրանքները կեղծանուններով (aliases), 
-սցենարներով (scripts), և կառուցման համակարգերով (build systems): Այլևս տեքստից 
-պատճենահանման հրամաններ չկան փաստաթուղթ։
+Ինչպե՞ս ավտոմատացնել սովորական և կրկնվող առաջադրանքները կեղծանուններով (aliases), 
+սցենարներով (scripts), և կառուցման համակարգերով (build systems):
 
-Օրինակ, ձեր հրամանների պատմության մեջ արագ որոնումը կարող է հսկայական ժամանակ խնայել:
+Օրինակ, որոնումը ձեր հրամանների պատմության մեջ կարող է հսկայական ժամանակ խնայել:
 Ստորև բերված օրինակում մենք ցույց ենք տալիս մի քանի հնարքներ հրամանի պատյանում 
 ձեր կողմից արված `convert` հրամանների որոնման համար:
 
@@ -59,85 +57,68 @@ title: "Ինչու՞ ենք մենք դասավանդում այս դասը"
 
 ## Տարբերակի վերահսկում (Version control)
 
-Ինչպես ճիշտ օգտագործել տարբերակի վերահսկումը ուրիշների հետ համագործակցելու, 
-խնդրահարույց փոփոխությունները արագ գտնելու և մեկուսացնելու համար. 
-Մենք նույնիսկ կսովորեցնենք ձեզ, թե ինչպես նպաստել այլ մարդկանց 
-նախագծերին ձգողական պահանջներով (pull requests):
+Ինչպե՞ս ճիշտ օգտագործել տարբերակի վերահսկումը ուրիշների հետ համագործակցելու, 
+խնդրահարույց փոփոխությունները արագ գտնելու և մեկուսացնելու համար:
+Մենք նույնիսկ կսովորեցնենք ձեզ, թե ինչպես մասնակցել այլ մարդկանց 
+նախագծերին ձգողական պահանջների (pull requests) միջոցով:
 
 Ստորև բերված օրինակում մենք օգտագործում ենք `git bisect` հրամանը խնդրահարույց 
-փոփոխությունները գտնելու համար: Այնուհետև մենք այն ուղղում ենք `git revert`-ով:
+փոփոխությունները գտնելու համար: Այնուհետև մենք ուղղում ենք դրանք `git revert` հրամանի օգնությամբ:
 <video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
   <source src="/static/media/demos/git.mp4" type="video/mp4">
 </video>
 
-## Text editing
+## Տեքստի խմբագրում (Text editing)
 
-How to efficiently edit files from the command-line, both locally and
-remotely, and take advantage of advanced editor features. No more
-copying files back and forth. No more repetitive file editing.
+Ինչպե՞ս արդյունավետ կերպով խմբագրել ֆայլերը հրամանի պատյանից, ինչպես տեղական, այնպես էլ
+հեռակա կարգով, և օգտվել խմբագրի առաջադեմ հնարավորություններից:
 
-Vim macros are one of its best features, in the example below we quickly convert an html table to csv format using a nested vim macro.
+Մակրոները Vim-ի լավագույն հատկանիշներից են: Ստորև բերված օրինակում մենք արագ 
+փոխակերպում ենք html աղյուսակը csv ձևաչափի, օգտագործելով ներկառուցված մակրո:
 <video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
   <source src="/static/media/demos/vim.mp4" type="video/mp4">
 </video>
 
-## Remote machines
+## Հեռակա կառավարում (Remote machines)
 
-How to stay sane when working with remote machines using SSH keys and
-terminal multiplexing. No more keeping many terminals open just to
-run two commands at once. No more typing your password every time you
-connect. No more losing everything just because your Internet
-disconnected or you had to reboot your laptop.
+Ինչպե՞ս աշխատել հեռավոր մեքենաների հետ՝ օգտագործելով SSH և տերմինալային մուլտիպլեքսավորում:
 
-In the example below we use `tmux` to keep sessions alive in remote servers and `mosh` to support network roaming and disconnection.
+Ստորև բերված օրինակում մենք օգտագործում ենք `tmux` հեռակա սերվերներում նիստերը 
+կենդանի պահելու համար, և `mosh`՝ ցանցի ռոումինգին ու անջատմանը աջակցելու համար:
 
 <video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
   <source src="/static/media/demos/ssh.mp4" type="video/mp4">
 </video>
 
-## Finding files
+## Ֆայլերի որոնում (Finding files)
 
-How to quickly find files that you are looking for. No
-more clicking through files in your project until you find the one
-that has the code you want.
+Ինչպե՞ս արագ գտնել այն ֆայլերը, որոնք փնտրում եք:
 
-In the example below we quickly look for files with `fd` and for code snippets with `rg`. We also quickly `cd` and `vim` recent/frequent files/folder using `fasd`.
+Ստորև բերված օրինակում մենք `fd`-ով փնտրում ենք ֆայլեր և `rg`-ով փնտրում ենք կոդի հատվածներ: 
+Մենք նաև արագ `cd`-ում և `vim`-ում ենք վերջին/հաճախակի-այցելած ֆայլեր/թղթապանակներ՝ օգտագործելով `fasd`:
 
 <video autoplay="autoplay" loop="loop" controls muted playsinline  oncontextmenu="return false;"  preload="auto"  class="demo">
   <source src="/static/media/demos/find.mp4" type="video/mp4">
 </video>
 
-## Data wrangling
+## Տվյալների փոխակերպում (Data wrangling)
 
-How to quickly and easily modify, view, parse, plot, and compute over
-data and files directly from the command-line. No more copy pasting
-from log files. No more manually computing statistics over data. No
-more spreadsheet plotting.
+Ինչպե՞ս արագ և հեշտությամբ փոփոխել, դիտել, վերլուծել, գծագրել և հաշվարկել
+տվյալները և ֆայլերը անմիջապես տերմինալից:
 
-## Virtual machines
+## Վիրտուալ մեքենաներ (Virtual machines)
 
-How to use virtual machines to try out new operating systems, isolate
-unrelated projects, and keep your main machine clean and tidy. No
-more accidentally corrupting your computer while doing a security
-lab. No more millions of randomly installed packages with differing
-versions.
+Ինչպե՞ս օգտագործել վիրտուալ մեքենաներ նոր օպերացիոն համակարգեր փորձարկելու, 
+և ձեր հիմնական մեքենան մաքուր և կոկիկ պահելու համար:
 
-## Security
+## Անվտանգություն (Security)
 
-How to be on the Internet without immediately revealing all of your
-secrets to the world. No more coming up with passwords that match the
-insane criteria yourself. No more unsecured, open WiFi networks. No
-more unencrypted messaging.
+Ինչպե՞ս ինչպես օգտվել համացանցից՝ առանց բացահայտելու ձեր գաղտնիքները.
 
-# Conclusion
+# Եզրափակում (Conclusion)
 
-This, and more, will be covered across the 12 class lectures, each including an
-exercise for you to get more familiar with the tools on your own. If you can't
-wait for January, you can also take a look at the lectures from [Hacker
-Tools](https://hacker-tools.github.io/lectures/), which we ran during IAP last
-year. It is the precursor to this class, and covers many of the same topics.
+Սա և ավելին կներկայացվեն 12 դասախոսությունների ընթացքում, որոնցից յուրաքանչյուրը 
+ներառում է վարժություններ, որպեսզի դուք ինքներդ ավելի շատ ծանոթանաք նշված գործիքներին: 
 
-We hope to see you in January, whether virtually or in person!
-
-Happy hacking,<br>
+<br>
 Anish, Jose, and Jon
